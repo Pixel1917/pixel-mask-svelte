@@ -1,6 +1,8 @@
 {
-	"name": "pixel-mask-svelte5",
-	"version": "0.0.1",
+	"name": "pixel-mask-svelte",
+	"author": "Sergey Galaktionov",
+	"license": "MIT",
+	"version": "0.0.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -61,7 +63,11 @@
 		"vitest": "^3.0.0"
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"mask",
+		"svelte 5",
+		"sveltekit",
+		"svelte 4"
 	],
 	"pnpm": {
 		"onlyBuiltDependencies": [
