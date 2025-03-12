@@ -1,8 +1,22 @@
 {
 	"name": "pixel-mask-svelte",
+	"description": "tiny(8.5kb) svelte 4 and 5 mask library",
+	"homepage": "https://github.com/Pixel1917/pixel-mask-svelte",
+	"bugs": {
+		"url": "https://github.com/Pixel1917/pixel-mask-svelte/issues",
+		"email": "sank195951@outlook.com"
+	},
 	"author": "Sergey Galaktionov",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Pixel1917/pixel-mask-svelte.git"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"license": "MIT",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -47,6 +61,7 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
+		"@testing-library/user-event": "^14.6.1",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",

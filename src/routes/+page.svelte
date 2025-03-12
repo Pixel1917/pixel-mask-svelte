@@ -1,9 +1,9 @@
 <script lang="ts">
-	import {masked} from '$lib';
+	import {masked} from '../lib/index';
 </script>
 
-<h1>Demo</h1>
+<h1>examples</h1>
 <input type="text" use:masked={'###-###-###'} />
 <input type="text" use:masked={'##.##.####'} />
 <input type="text" use:masked={'AAA-###-aaa'} />
-<input type="text" use:masked={'+1 (###) ###-####'} />
+<input type="text" use:masked={'+1 (###) ###-####'}>

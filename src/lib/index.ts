@@ -70,10 +70,10 @@ export class Mask {
 	}
 }
 
-export const masked = (el: HTMLInputElement, mask?: string) => {
+export const masked = (el: HTMLInputElement, mask?: string, tokens?: {[p: string]: {pattern?: RegExp; escape?: boolean; transform?: (v: string) => string}}) => {
 	const config = {
 		mask,
-		tokens: Mask.tokens
+		tokens: tokens ?? Mask.tokens
 	};
 
 	if (el.tagName.toLocaleUpperCase() !== 'INPUT') {
