@@ -1,7 +1,12 @@
 # Svelte mask library
 
-Tiny mask library. Supports svelte 4 and svelte 5;
+Tiny (8.5kb) mask library. Supports svelte 4 and svelte 5;
 Pretty easy to use;
+
+### Installation
+```bash
+npm i pixel-mask-svelte
+```
 
 ### Usage
 ```sveltehtml

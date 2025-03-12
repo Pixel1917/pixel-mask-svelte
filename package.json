@@ -2,7 +2,7 @@
 	"name": "pixel-mask-svelte",
 	"author": "Sergey Galaktionov",
 	"license": "MIT",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
