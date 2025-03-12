@@ -24,17 +24,17 @@ import {masked} from 'pixel-mask-svelte';
 
 ```sveltehtml
 <script lang="ts">
-	import {masked} from 'pixel-mask-svelte';
+import {masked} from 'pixel-mask-svelte';
 	
-	const myTokens: {[p: string]: {pattern?: RegExp; escape?: boolean; transform?: (v: string) => string}} = {
-        myToken: {escape: true},
-        a: {pattern: /[a-zA-Z]/, transform: (v: string) => v.toLocaleLowerCase()},
-        '#': {pattern: /\d/}
-    };
+const myTokens: {[p: string]: {pattern?: RegExp; escape?: boolean; transform?: (v: string) => string}} = {
+    myToken: {escape: true},
+    a: {pattern: /[a-zA-Z]/, transform: (v: string) => v.toLocaleLowerCase()},
+    '#': {pattern: /\d/}
+};
 	
-	const maskedCustom = (el: HTMLInputElement, mask: string) => {
-		return masked(el, mask, myTokens);
-    };
+const maskedCustom = (el: HTMLInputElement, mask: string) => {
+    return masked(el, mask, myTokens);
+};
 </script>
 ```
 
